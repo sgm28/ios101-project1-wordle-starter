@@ -30,7 +30,10 @@ class KeyboardCell: UICollectionViewCell {
       Checkpoint: After finishing this exercise, you should now be able to see the keyboard laid out on the screen! If it's not working, check your work on exercises 1 & 2.
     */
     // START YOUR CODE HERE
-    // ...
+    // 1.
+      self.string = string
+    //2
+      self.label.text  = string
     // END YOUR CODE HERE
   }
 
